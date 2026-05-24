@@ -21,12 +21,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Перенаправление...</title>
-    <meta http-equiv="refresh" content="0; url=https://alexgame8825.github.io">
-    <script>
-        window.location.href = "https://alexgame8825.github.io";
-    </script>
+    <meta http-equiv="refresh" content="1; url=https://alexgame8825.github.io">
 </head>
 <body>
-    <p>Переход на сайт <a href="https://alexgame8825.github.io">alexgame8825.github.io</a>...</p>
+    <p>Переход на <a href="https://alexgame8825.github.io">alexgame8825.github.io</a> через 1 секунду...</p>
+    
+    <script>
+        setTimeout(function() {
+            window.location.href = "https://alexgame8825.github.io";
+        }, 1000);
+    </script>
 </body>
 </html>
