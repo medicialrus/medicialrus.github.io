@@ -42,33 +42,3 @@
 =-=-=-=-=-=-=----------=-=-=-=-=-=-=-=-=-=-==-=-=--=-=-=-=-=-==--=-=-=-=-=--==--=-=
 
 
-
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <!-- Разрешаем передачу Referer -->
-    <meta name="referrer" content="unsafe-url">
-    <title>Перенаправление через 3 секунду...</title>
-</head>
-<body>
-
-    <p>Перенаправление на сайт... Пожалуйста, подождите.</p>
-
-    <script>
-        window.onload = function() {
-            // Создаем временную ссылку
-            const link = document.createElement('a');
-            link.href = 'https://www.effectivecpmnetwork.com/kqwgtc5i?key=9bc2ab3ea805a5dca0919d549f7dd583';
-            link.referrerPolicy = 'unsafe-url';
-            document.body.appendChild(link);
-
-            // Запускаем таймер на 3 миллисекунд (3 секунда)
-            setTimeout(function() {
-                link.click(); // Выполняем переход после паузы
-            }, 3000); 
-        };
-    </script>
-
-</body>
-</html>
